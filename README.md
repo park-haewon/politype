@@ -2,9 +2,11 @@
 
 A Java-based console application that helps users understand their political positions through an MBTI-style personality type system, incorporating moral foundation theory to provide deeper insights into political belief formation.
 
+
 ## Overview
 
 This project categorizes political positions using a four-dimensional system, similar to MBTI personality types. It goes beyond simple political labeling by integrating Jonathan Haidt's Moral Foundations Theory to help users understand not just *what* they believe, but *why* they hold these beliefs.
+
 
 ## Features
 
@@ -18,6 +20,7 @@ Users are assessed across four dimensions to create a political type code (e.g.,
 | **Authority View** | L/A | **L** (Libertarianism) - Freedom of expression, individual rights | **A** (Authoritarianism) - Order, control, state priority | Perspective on balance between state power and civil liberties |
 | **Gender View** | F/E | **F** (Feminist) - Recognition of structural inequality, support for active intervention | **E** (Equalist) - Emphasis on individual equality regardless of gender | Structural vs. individual approach to gender equality |
 
+
 ### 2. Moral Foundation Analysis
 Based on Jonathan Haidt and Jesse Graham's Moral Foundations Theory, the application analyzes how users prioritize five universal moral foundations:
 
@@ -29,8 +32,10 @@ Based on Jonathan Haidt and Jesse Graham's Moral Foundations Theory, the applica
 
 The key insight: Everyone shares these moral foundations, but we weight them differently - like adjusting an equalizer affects sound quality, adjusting moral weights affects our political intuitions.
 
+
 ### 3. Social Issue Perspective Taking
 The application includes exercises to help users understand opposing viewpoints on contemporary social issues, promoting empathy and constructive dialogue across political differences.
+
 
 ## Project Structure
 
@@ -57,9 +62,11 @@ src/
 
 ## Installation
 
+
 ### Prerequisites
 - Java Development Kit (JDK) 8 or higher
 - Command line terminal
+
 
 ### Setup
 1. Clone the repository:
@@ -78,6 +85,7 @@ javac -d bin src/**/*.java
 java -cp bin main.Main
 ```
 
+
 ## Usage
 
 1. **Start the Assessment**: Launch the application and follow the prompts
@@ -85,6 +93,7 @@ java -cp bin main.Main
 3. **Receive Your Type**: Get your four-letter political type code (e.g., EPLE)
 4. **Explore Moral Foundations**: Learn how your moral priorities shape your political views
 5. **Understand Different Perspectives**: Engage with exercises designed to build empathy for other viewpoints
+
 
 ## Example Output
 
@@ -103,6 +112,7 @@ Authority: ███░░░░░░░ 30%
 Sanctity: ██░░░░░░░░ 20%
 ```
 
+
 ## Educational Purpose
 
 This project aims to:
@@ -111,24 +121,18 @@ This project aims to:
 - Encourage constructive dialogue by helping users understand the moral intuitions behind different political positions
 - Reduce political polarization through increased understanding
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. Areas for contribution include:
-- Adding more assessment questions
-- Expanding the issue discussion modules
-- Improving the moral foundation analysis
-- Adding visualization features
-- Translating to other languages
 
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+
 ## Acknowledgments
 
 - Moral Foundations Theory by Jonathan Haidt and Jesse Graham
-- Inspired by the MBTI personality assessment framework
+- Inspired by the MBTI political assessment framework (The Community)
 - Thanks to all contributors and testers
+
 
 ## Contact
 
