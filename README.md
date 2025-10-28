@@ -1,4 +1,4 @@
-# PoliType-
+# PoliType
 
 A Java-based console application that helps users understand their political positions through an MBTI-style personality type system, incorporating moral foundation theory to provide deeper insights into political belief formation.
 
